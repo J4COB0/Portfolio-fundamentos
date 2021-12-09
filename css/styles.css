@@ -34,7 +34,7 @@ header {
 footer {
     margin-top: 20px;
     width: 100%;
-    height: 130px;
+    height: 110px;
     background-color: #191c32;
     color: white;
 }
@@ -396,13 +396,14 @@ footer {
 }
 
 .footer-social-medias {
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-social-medias>a>img {
-    width: 40px;
+.footer-social-medias>i {
+    font-size: 30px;
+    color: white;
 }
 
 
@@ -426,7 +427,7 @@ footer {
         width: 43px;
         margin: 0 0 10px 0;
     }
-}
+
 
 @media only screen and (min-width: 480px){
     .portfolio-card {
